@@ -21,7 +21,7 @@ const Nav: NextComponentType = () => {
                 weight="bold"
               />
               <p className="text-md duration-150 hover:text-stone-400">
-                Leeds , UK
+                leeds , uk
               </p>
             </div>
           </div>
