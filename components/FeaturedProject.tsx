@@ -15,7 +15,7 @@ const FeaturedProject: NextPage = () => {
           <p className=" text-stone-600">Type of company</p>
         </div>
       </div>
-      <div className="group flex h-60 flex-col justify-center   p-4 ">
+      <div className="group flex h-60 flex-col justify-center  p-4 ">
         <div className="flex flex-col  py-2">
           <p className="mb-2 font-bold">Role</p>
           <p className=" text-stone-600">dev & founder</p>

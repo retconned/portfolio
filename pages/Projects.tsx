@@ -1,8 +1,9 @@
 import type { NextPage } from "next";
 import Image from "next/image";
-import Project from "../Components/Project";
-import FeaturedProject from "../Components/FeaturedProject";
-import Nav from "../Components/Nav";
+
+import Project from "../components/Project";
+import FeaturedProject from "../components/FeaturedProject";
+import Nav from "../components/Nav";
 
 const Projects: NextPage = () => {
   return (
