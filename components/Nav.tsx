@@ -96,9 +96,9 @@ const Nav: NextPage = () => {
       <nav className="hidden h-screen flex-row md:sticky md:bottom-0 md:flex">
         <div className="flex h-auto w-60 flex-col justify-between bg-black p-8 font-semibold text-stone-200 ">
           <div className="">
-            <div className="flex flex-col space-y-2 ">
+            <div className="flex flex-col space-y-2">
               <p className=" text-xl text-white">retconned</p>
-              <div className="flex flex-row items-center space-x-2 pl-2 ">
+              <div className="flex flex-row items-center space-x-2 pl-1 ">
                 <FiGlobe size={20} color={iconColor} />
                 <p className="text-sm text-stone-300 duration-150 hover:text-stone-200">
                   Interwebs
@@ -110,7 +110,7 @@ const Nav: NextPage = () => {
                 <Link href="/">
                   <a
                     onClick={playAudio}
-                    className="text-stone-200 duration-150 hover:text-white"
+                    className="text-stone-200 duration-150 hover:text-white focus:text-lime-500"
                   >
                     about
                   </a>
@@ -120,7 +120,7 @@ const Nav: NextPage = () => {
                 <Link href="/Projects">
                   <a
                     onClick={playAudio}
-                    className="text-stone-200 duration-150 hover:text-white"
+                    className="text-stone-200 duration-150 hover:text-white focus:text-lime-500"
                   >
                     projects
                   </a>
@@ -130,7 +130,7 @@ const Nav: NextPage = () => {
                 <Link href="/Contact">
                   <a
                     onClick={playAudio}
-                    className="text-stone-200 duration-150 hover:text-white"
+                    className="text-stone-200 duration-150 hover:text-white focus:text-lime-500"
                   >
                     contact & ect.
                   </a>
