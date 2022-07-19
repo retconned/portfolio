@@ -4,11 +4,18 @@ import { useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { AiOutlineTwitter, AiFillGithub, AiOutlineMenu } from "react-icons/ai";
 import { FiGlobe } from "react-icons/fi";
+import useSound from "use-sound";
 
 const Nav: NextPage = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const iconColor = "#84cc16";
+
+  const [switchPageAudio] = useSound("/beep.mp3");
+
+  const playAudio = () => {
+    switchPageAudio();
+  };
 
   return (
     <>
@@ -39,21 +46,30 @@ const Nav: NextPage = () => {
               <ul className="text-md h-[50vh] space-y-2 pt-4 ">
                 <li>
                   <Link href="/">
-                    <a className="text-stone-200 duration-150 hover:text-white">
+                    <a
+                      onClick={playAudio}
+                      className="text-stone-200 duration-150 hover:text-white"
+                    >
                       about
                     </a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/Projects">
-                    <a className="text-stone-200 duration-150 hover:text-white">
+                    <a
+                      onClick={playAudio}
+                      className="text-stone-200 duration-150 hover:text-white"
+                    >
                       projects
                     </a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/Contact">
-                    <a className="text-stone-200 duration-150 hover:text-white">
+                    <a
+                      onClick={playAudio}
+                      className="text-stone-200 duration-150 hover:text-white"
+                    >
                       contact & ect.
                     </a>
                   </Link>
@@ -89,24 +105,33 @@ const Nav: NextPage = () => {
                 </p>
               </div>
             </div>
-            <ul className="text-md space-y-2 pt-4 opacity-80">
+            <ul className="text-md space-y-4 pt-4 opacity-80">
               <li>
                 <Link href="/">
-                  <a className="text-stone-200 duration-150 hover:text-white">
+                  <a
+                    onClick={playAudio}
+                    className="text-stone-200 duration-150 hover:text-white"
+                  >
                     about
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="/Projects">
-                  <a className="text-stone-200 duration-150 hover:text-white">
+                  <a
+                    onClick={playAudio}
+                    className="text-stone-200 duration-150 hover:text-white"
+                  >
                     projects
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="/Contact">
-                  <a className="text-stone-200 duration-150 hover:text-white">
+                  <a
+                    onClick={playAudio}
+                    className="text-stone-200 duration-150 hover:text-white"
+                  >
                     contact & ect.
                   </a>
                 </Link>
