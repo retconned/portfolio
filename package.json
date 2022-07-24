@@ -1,8 +1,11 @@
 {
-  "name": "next-port",
-  "version": "0.1.0",
-  "private": true,
-  "license": "MIT",
+  "name": "retconned.xyz",
+  "version": "1.0.0",
+  "author": {
+    "name": "retconned",
+    "email": "retcnned@gmail.com",
+    "twitter": "@retconned_"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

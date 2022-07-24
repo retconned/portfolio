@@ -25,7 +25,7 @@ const Contact: NextPage = () => {
               target="_blank"
               rel="noreferrer"
             >
-              retconned/retconned.com
+              retconned/portfolio
             </a>
             .
           </p>
