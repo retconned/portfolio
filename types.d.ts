@@ -3,6 +3,7 @@ interface ProjectComponentProps {
     tech: string;
     description: string;
     languages?: string[];
+    link: string
 }
 interface featuredProjectProps {
     name?: string;

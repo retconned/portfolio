@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <div className="w-full bg-black px-8 pt-20 md:pl-8 md:pt-10 ">
           <article className="prose prose-a:text-pink-500">
             <h1 className="text-4xl font-bold text-white">who am i 🤔</h1>
-            <p className="w-[55vw] font-medium text-stone-300">
+            <div className="w-[55vw] font-medium text-stone-300">
               <p>
                 Hello, I go by retconned, I am a passionate web developer &
                 designer with 5 years of design experiance and User Interface
@@ -43,7 +43,7 @@ const Home: NextPage = () => {
                 and languages including: React.js, Next.js, JavaScript,
                 HTML5/CSS3, TailwindCSS, Typescript, MongoDB and more!
               </p>
-            </p>
+            </div>
           </article>
         </div>
       </div>

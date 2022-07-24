@@ -31,6 +31,7 @@ const Projects: NextPage = ({ displayedProjects, languages }: any) => {
                   title={project.name}
                   tech={project.language}
                   description={project.description}
+                  link={project.link}
                   languages={languages}
                 />
               ))}
@@ -48,27 +49,27 @@ export async function getServerSideProps() {
   const displayedProjects = [
     {
       name: "web3-penguin-house",
-      link: "/web3-penguin-house",
+      link: "https://github.com/retconned/web3-penguin-house",
       description:
         "The penguin house is a dApp that serve as a front-end minter for ERC-721 contracts & as a token gallery for all token holders.",
       language: "Javascript",
     },
     {
       name: "kingyo-bot",
-      link: "/kingyo-bot",
+      link: "https://github.com/retconned/kingyo-bot",
       description:
         "Kingyo is a NFT discord bot that showcases the latest NFT sale from a targeted collection/smart contract using the OpenSea API.",
       language: "Javascript",
     },
     {
       name: "Single page minter",
-      link: "/frontend-minter",
+      link: "https://github.com/retconned/Single-page-minter",
       description: "Single page minting solution using Chakra-ui.",
       language: "Javascript",
     },
     {
       name: "treeverse-web",
-      link: "/treeverse-web",
+      link: "https://github.com/retconned/treeverse-web",
       description:
         "Treeverse is a top-down open-world classless MMORPG built for mobile with social features and an emphasis on cooperative gameplay.",
       language: "Typescript",
