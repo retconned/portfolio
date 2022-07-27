@@ -17,7 +17,7 @@ const Home: NextPage = () => {
             <div className="w-[55vw] font-medium text-stone-300">
               <p>
                 Hello, I go by retconned, I am a passionate web developer &
-                designer with 5 years of design experiance and User Interface
+                designer with 5 years of design experience and User Interface
                 Engineering. My expertise lies in the design, development, and
                 delivery of astonishing products.
               </p>
@@ -25,7 +25,7 @@ const Home: NextPage = () => {
                 I am equipped with a diverse yet a promising skill-set that
                 enables me to effectively self-manage during independent
                 projects as well as collaborate as part of a production team.
-                Utilizing my creative and artistic skills I am proficient in
+                Utilizing my creative and artistic skills, I am proficient in
                 designing and developing interactive and beautiful yet intuitive
                 responsive websites & interfaces.
               </p>
