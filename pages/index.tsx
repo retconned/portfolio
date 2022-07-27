@@ -30,7 +30,7 @@ const Home: NextPage = () => {
                 responsive websites & interfaces.
               </p>
               <p>
-                I also have experience creating prototypes Utilizing my creative
+                I also have experience creating prototypes utilizing my creative
                 and artistic skills allow me to create interactive and beautiful
                 yet intuitive responsive websites & interfaces. I also have
                 experience creating prototypes for various web applications.
