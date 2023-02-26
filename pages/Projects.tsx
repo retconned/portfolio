@@ -48,6 +48,20 @@ export default Projects;
 export async function getServerSideProps() {
   const displayedProjects = [
     {
+      name: "gonzu",
+      link: "https://github.com/retconned/gonzu",
+      description:
+        "gonzu is a data aggregator platform for call of duty warzone 2.0 loadouts that highlights the most popular builds used by leading streamers.",
+      language: "Typescript",
+    },
+    {
+      name: "treeverse-web",
+      link: "https://github.com/retconned/treeverse-web",
+      description:
+        "Treeverse is a top-down open-world classless MMORPG built for mobile with social features and an emphasis on cooperative gameplay.",
+      language: "Typescript",
+    },
+    {
       name: "web3-penguin-house",
       link: "https://github.com/retconned/web3-penguin-house",
       description:
@@ -66,13 +80,6 @@ export async function getServerSideProps() {
       link: "https://github.com/retconned/Single-page-minter",
       description: "Single page minting solution using Chakra-ui.",
       language: "Javascript",
-    },
-    {
-      name: "treeverse-web",
-      link: "https://github.com/retconned/treeverse-web",
-      description:
-        "Treeverse is a top-down open-world classless MMORPG built for mobile with social features and an emphasis on cooperative gameplay.",
-      language: "Typescript",
     },
   ];
 
