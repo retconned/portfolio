@@ -55,6 +55,20 @@ export async function getServerSideProps() {
       language: "Typescript",
     },
     {
+      name: "kickchat-client",
+      link: "https://github.com/retconned/kickchat-client",
+      description:
+        "a TypeScript wrapper for kick.com's WebSocket-based chat system that auto-creates new connections when needed.",
+      language: "Typescript",
+    },
+    {
+      name: "pnpm-turborepo-boilerplate",
+      link: "https://github.com/retconned/pnpm-turborepo-boilerplate",
+      description:
+        "This is a basic configuration for a Turborepo setup that enables web app development with TypeScript, Tailwind CSS, and Prisma ORM, CVA (Class Variance Authority), and a shared UI component library between React and Next.js apps.",
+      language: "Typescript",
+    },
+    {
       name: "treeverse-web",
       link: "https://github.com/retconned/treeverse-web",
       description:
