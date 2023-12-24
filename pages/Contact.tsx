@@ -36,7 +36,7 @@ const Contact: NextPage = () => {
             If it&apos;s an emergency, I&apos;m most responsive through Twitter
             DMs or via Discord{" "}
             <a className="cursor-pointer text-lime-500 underline">
-              retconned#2804
+              retconned
             </a>{" "}
             .
           </p>
